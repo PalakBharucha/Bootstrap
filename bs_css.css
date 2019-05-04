@@ -1,0 +1,41 @@
+table.mytable
+    {color:red;
+        max-width: 768px;
+    }
+/* table, thead, th, td, tr{
+    border:2px dotted green;
+} */
+table .table-bodered{
+    border:2px dotted green;
+}
+
+  .img-responsive{
+                max-width:100%;
+            }
+            .banner_img{
+                position: absolute;
+            }
+            .banner_txt{
+                position:absolute;
+                color: green;
+                font-size: 18px;
+            }
+            p{
+                position: relative;
+                    margin-top: 50px;
+                    margin-left: 70px;
+            }
+          @media only screen and (max-width:760px){
+                .banner_txt{
+                position:absolute;
+                color: red;
+                font-size: 12px;
+            }
+                p{  position: relative;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    color: red;
+                }
+            }
+
+        
